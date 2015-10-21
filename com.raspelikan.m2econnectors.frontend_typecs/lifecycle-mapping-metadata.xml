@@ -12,7 +12,7 @@
       </pluginExecutionFilter>
       <action>
         <configurator>
-          <id>com.raspelikan.m2econnectors.frontend-typecs.Configurator</id>
+          <id>com.raspelikan.m2econnectors.frontend.TypecsPluginConfigurator</id>
         </configurator>
       </action>
     </pluginExecution>

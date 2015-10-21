@@ -5,7 +5,7 @@
          point="org.eclipse.m2e.core.projectConfigurators">
       <configurator
             class="com.raspelikan.m2econnectors.frontend.TypecsPluginConfigurator"
-            id="com.raspelikan.m2econnectors.frontend-typecs.Configurator"
+            id="com.raspelikan.m2econnectors.frontend.TypecsPluginConfigurator"
             name="frontend-typecs Project Configurator">
       </configurator>
    </extension>

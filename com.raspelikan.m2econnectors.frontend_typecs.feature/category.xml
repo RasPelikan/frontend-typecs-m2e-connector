@@ -2,7 +2,7 @@
 <site>
    <category-def name="m2e-frontend-typecs" label="frontend-typesc connnector for M2E"/>
    
-   <feature id="com.raspelikan.m2econnectors.frontend-typecs.feature">
+   <feature id="com.raspelikan.m2econnectors.frontend_typecs.feature">
       <category name="m2e-frontend-typecs"/>
    </feature>
 </site>

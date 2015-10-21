@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.raspelikan.m2econnectors.frontend_typecs.feature"
+      label="frontend-typecs M2E connector"
+      version="0.0.1.qualifier"
+      plugin="com.raspelikan.m2econnectors.frontend-typecs"
+      os="linux,macosx,win32"
+      ws="carbon,cocoa,win32"
+      arch="ia64,ia64_32,x86,x86_64">
+
+   <description>
+      Manages TypEcs-Configuration for Eclipse
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="com.axmor.eclipse.typescript.feature"
+         version="4.0.0"
+         name="TypEcs"
+         os="linux,macosx,win32"
+         ws="carbon,cocoa,gtk,win32"
+         arch="ia64,ia64_32,x86,x86_64"
+         search-location="self"/>
+
+   <requires>
+      <import plugin="org.eclipse.core.resources" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.jdt" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.core" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.maven.runtime" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core" version="3.7.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="com.raspelikan.m2econnectors.frontend-typecs"
+         download-size="0"
+         install-size="0"
+         version="0.0.1.qualifier"
+         unpack="false"/>
+
+</feature>
