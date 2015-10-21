@@ -14,7 +14,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<tycho-version>0.21.0</tycho-version>
+		<tycho.version>0.21.0</tycho.version>
 	</properties>
 
 	<repositories>
@@ -25,7 +25,7 @@
 		</repository>
 		<repository>
 			<id>m2e</id>
-			<url>http://download.eclipse.org/technology/m2e/releases/1.1</url>
+			<url>http://download.eclipse.org/technology/m2e/releases/1.5</url>
 			<layout>p2</layout>
 		</repository>
 	</repositories>
@@ -35,8 +35,18 @@
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-maven-plugin</artifactId>
-				<version>${tycho-version}</version>
+				<version>${tycho.version}</version>
 				<extensions>true</extensions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
 			</plugin>
 		</plugins>
 
@@ -45,7 +55,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-resources-plugin</artifactId>
-					<version>2.4.3</version>
+					<version>2.7</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>

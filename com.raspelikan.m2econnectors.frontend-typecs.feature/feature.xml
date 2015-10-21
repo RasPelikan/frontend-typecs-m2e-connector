@@ -2,7 +2,7 @@
 <feature
       id="com.raspelikan.m2econnectors.frontend-typecs.feature"
       label="frontend-typecs M2E connector"
-      version="0.0.1.SNAPSHOT"
+      version="0.0.1.qualifier"
       plugin="com.raspelikan.m2econnectors.frontend-typecs">
 
    <description>
@@ -21,7 +21,7 @@
          id="com.raspelikan.m2econnectors.frontend-typecs"
          download-size="0"
          install-size="0"
-         version="0.0.1.SNAPSHOT"
+         version="0.0.1.qualifier"
          unpack="false"/>
 
 </feature>

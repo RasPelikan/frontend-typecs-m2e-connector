@@ -16,7 +16,7 @@
 		<dependency>
 			<groupId>com.raspelikan.m2econnectors</groupId>
 			<artifactId>com.raspelikan.m2econnectors.frontend-typecs</artifactId>
-			<version>0.0.1</version>
+			<version>0.0.1-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 	</dependencies>
@@ -26,7 +26,7 @@
       <plugin>
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-packaging-plugin</artifactId>
-        <version>${tycho-version}</version>
+        <version>${tycho.version}</version>
         <configuration>
           <deployableFeature>true</deployableFeature>
         </configuration>
@@ -34,7 +34,7 @@
       <plugin>
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>tycho-p2-plugin</artifactId>
-        <version>${tycho-version}</version>
+        <version>${tycho.version}</version>
         <executions>
           <execution>
             <id>categorization</id>
