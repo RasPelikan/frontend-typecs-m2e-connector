@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>com.raspelikan.m2econnectors.frontend_typecs</artifactId>
-	<name>frontend-typecs Connector for M2E</name>
+    <name>frontend-typecs M2E Connector</name>
 	<description>Manages TypEcs Configuration for M2E</description>
 	<parent>
 		<groupId>com.raspelikan.m2econnectors</groupId>

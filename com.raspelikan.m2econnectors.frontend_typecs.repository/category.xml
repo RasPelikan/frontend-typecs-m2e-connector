@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.raspelikan.m2econnectors.frontend_typecs.feature_0.0.1.qualifier.jar" id="com.raspelikan.m2econnectors.frontend_typecs.feature" version="0.0.1.qualifier">
+      <category name="typescript"/>
+   </feature>
+   <category-def name="typescript" label="M2E Connector maven-frontend-plugin to TypEcs-plugin"/>
+</site>

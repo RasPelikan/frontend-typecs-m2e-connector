@@ -10,6 +10,7 @@
 	<modules>
 		<module>com.raspelikan.m2econnectors.frontend_typecs</module>
 		<module>com.raspelikan.m2econnectors.frontend_typecs.feature</module>
+		<module>com.raspelikan.m2econnectors.frontend_typecs.repository</module>
 	</modules>
 
 	<properties>

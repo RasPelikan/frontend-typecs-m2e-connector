@@ -4,6 +4,7 @@
 	
   	<artifactId>com.raspelikan.m2econnectors.frontend_typecs.feature</artifactId>
 	<packaging>eclipse-feature</packaging>
+    <name>frontend-typecs M2E Connector - Feature</name>
 
 	<parent>
 		<groupId>com.raspelikan.m2econnectors</groupId>
